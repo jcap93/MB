@@ -8,7 +8,6 @@ pipeline {
                     echo "This is the build job"
                 }
             }
-        }
 
         stage("Static Code Analysis"){
             when { branch 'develop'}
